@@ -1,0 +1,19 @@
+<h1>Answer</h1>
+
+<div class="container m-5">
+<div class="card m-1 me-5">
+  <div class="card-body">
+    <%= @question%>
+    <p><em>  -You</em></p>
+  </div>
+</div>
+
+<div class="card m-1 me-5 bg-secondary">
+  <div class="card-body">
+    <%= @answer%>
+    <p><em>  -Stupid Coach</em></p>
+  </div>
+</div>
+
+<%= link_to "Ask again", ask_path, class: 'btn btn-secondary m-1'  %>
+</div>
